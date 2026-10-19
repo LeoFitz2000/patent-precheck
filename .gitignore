@@ -1,0 +1,83 @@
+# Local user profile, agent preferences and historical discussion entry points
+/AGENTS.md
+/USER.md
+/MEMORY.md
+/WORKFLOW.md
+/.workbuddy/
+/.codex/
+/.claude/
+/.idea/
+/.vscode/
+
+# Keep this project's skill; ignore unrelated local agent configuration
+/.agents/*
+!/.agents/skills/
+/.agents/skills/*
+!/.agents/skills/patent-precheck/
+
+# Historical workspace data, archives, third-party snapshots and recordings
+/_待删除/
+/_历史快照/
+/执行批次/
+/课程录音/
+/课题分析背景/
+/团队项目/
+/专利案例_分类说明包/
+/专利测试候选案例-*/
+/专利初筛Eval成品-*/
+/research-*/
+/DEEP_RESEARCH_*.md
+/docs/*
+!/docs/专利初筛/
+
+# Real case inputs, attachments, results and runtime records
+/专利初筛/材料/
+/专利初筛/运行记录/
+/专利初筛/处理结果/
+/专利初筛/结果/
+/tests/.artifacts/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+hosts.yml
+
+# Python / JS dependencies and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.coverage
+htmlcov/
+
+# Browser sessions and generated build/test artifacts
+.playwright/
+.playwright-cli/
+playwright-report/
+test-results/
+dist/
+build/
+*.log
+*.tmp
+*.bak
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+.~lock.*

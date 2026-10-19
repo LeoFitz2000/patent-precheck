@@ -1,0 +1,6 @@
+interface:
+  display_name: "专利初筛"
+  short_description: "描述技术想法或上传材料，自动整理证据、未知和下一步，无需重复填写提示词。"
+  default_prompt: "使用 $patent-precheck 沿用当前材料做初筛；如已在材料页保存，请处理最近一份待处理材料。"
+policy:
+  allow_implicit_invocation: true
